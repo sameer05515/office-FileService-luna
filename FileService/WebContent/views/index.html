@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-example42-production</title>
+  
+
+  <script src="../angular-1.2.16/angular.min.js"></script>
+  <script src="../controller/script.js"></script>
+  
+
+  
+</head>
+<body ng-app="scopeExample">
+  <div ng-controller="MyController">
+  Your name:
+    <input type="text" ng-model="username"> You are typing "{{username}}"
+    <br/><button ng-click='sayHello()'>greet</button>
+  <hr>
+  {{greeting}}
+</div>
+</body>
+</html>
